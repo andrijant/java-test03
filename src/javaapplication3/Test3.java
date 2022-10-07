@@ -9,7 +9,6 @@ public class Test3 {
         
         System.out.print("Year of registration: "); // no new line
               
-        
         int yearOfRegistration = s.nextInt(); // input from Scanner s
         
         int yearOfGraduation = yearOfRegistration + 4;
