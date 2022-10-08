@@ -18,7 +18,6 @@ public class Test3 {
     
 }
 
-
 //        System.out.print("Enter temperature in °C: ");
 //              
 //        double tempC = s.nextDouble();
