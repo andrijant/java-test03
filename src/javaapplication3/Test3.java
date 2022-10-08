@@ -7,12 +7,22 @@ public class Test3 {
         
         Scanner s = new Scanner(System.in); // System input
         
-        System.out.print("Year of registration: "); // no new line
+        System.out.print("Enter temperature in °F: ");
               
-        int yearOfRegistration = s.nextInt(); // input from Scanner s
+        double tempF = s.nextDouble();
         
-        int yearOfGraduation = yearOfRegistration + 4;
-        System.out.println("Year of graduation: " + yearOfGraduation);       
+        double tempC = (tempF - 32) / 1.8;
+        
+        System.out.println("Temperature in °C is: " + tempC);
     }
     
 }
+
+
+//        System.out.print("Enter temperature in °C: ");
+//              
+//        double tempC = s.nextDouble();
+//        
+//        double tempF = tempC * 1.8 + 32;
+//        
+//        System.out.println("Temperature in °F is: " + tempF);
