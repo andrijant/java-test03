@@ -12,9 +12,7 @@ public class Test3 {
         int yearOfRegistration = s.nextInt(); // input from Scanner s
         
         int yearOfGraduation = yearOfRegistration + 4;
-        System.out.println("Year of graduation: " + yearOfGraduation);
-     
-        
+        System.out.println("Year of graduation: " + yearOfGraduation);       
     }
     
 }
